@@ -48,7 +48,6 @@ class Roblox():
 
 session = Roblox(cookie)
 
-session.updateGameName()
 class Badges(Resource):
     def get(self):
         with open("badges.txt", "r") as f:
