@@ -66,4 +66,4 @@ api.add_resource(Badges, "/badges")
 api.add_resource(CreateBadge, "/createbadge/<string:username>/<string:password>")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
